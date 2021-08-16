@@ -1,9 +1,8 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,AAAA,CAAC,CAAC;EACE,UAAU,EAAE,UAAU;CAAG",
     "sources": [
-        "../sass/style.sass",
-        "../sass/blocks/_navbar.sass"
+        "../sass/style.sass"
     ],
     "names": [],
     "file": "style.css"
