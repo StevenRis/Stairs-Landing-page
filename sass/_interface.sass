@@ -2,6 +2,9 @@ body
     +light
     color: $text-color
 
+img
+    max-width: 100%
+
 .section
     padding: 100px 0
 
@@ -22,6 +25,7 @@ body
     color: $primary
     +bold
     background-color: #fff
+    text-decoration: none
 
 .button
     border: none
@@ -30,6 +34,27 @@ body
     background-color: $primary
     color: #fff
     +bold
+    text-decoration: none
+
+
+    &-fitting
+        color: $primary
+        background-color: #fff
+
+
+    &-add
+        background-color: lighten($primary, 10%)
+        color: #fff
+
+    &-like
+        background-color: $primary
+        height: 30px
+        border: none
+        width: 30px
+        &__image
+            width: 10px
+
+
 
 .bg-secondary
     background: $bg-secondary
