@@ -542,11 +542,6 @@ input[type="checkbox"]:checked + label:before {
   margin-top: 60px;
 }
 
-.catalog__link__link-mmore {
-  display: block;
-  max-width: 350px;
-}
-
 @media (max-width: 1199px) {
   .catalog-card {
     max-width: 470px;
@@ -558,6 +553,13 @@ input[type="checkbox"]:checked + label:before {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+}
+
+@media (max-width: 415px) {
+  .catalog__link-more {
+    display: block;
+    max-width: 350px;
   }
 }
 
@@ -631,5 +633,52 @@ input[type="checkbox"]:checked + label:before {
     margin-right: 30px;
     margin-left: 30px;
   }
+}
+
+.price-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.price-block__card {
+  margin-bottom: 10px;
+}
+
+.price-card {
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
+}
+
+.price-card__text {
+  padding: 20px;
+  font-size: 15px;
+}
+
+.price-card__title {
+  margin: 0;
+}
+
+.price-card__cost {
+  font-family: 'Proxima Nova Semibold', sans-serif;
+}
+
+.price-card__pricetag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.price-card__button {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
